@@ -11,11 +11,13 @@ Coded to support Python3
 
 - Define settings in config.ini
 
-The BackpackingMapper utilizes the trail database affiliated with [HikingProject](http://hikingproject.com).  You will need to establish an account with hiking project, and find your [private developer API key](https://www.hikingproject.com/data).  For the program to work, the following HikingProject account information must be stored in the config.ini file:
+The BackpackingMapper utilizes the trail database affiliated with [HikingProject](http://hikingproject.com).  You will need to establish an account with hiking project, and find your [private developer API key](https://www.hikingproject.com/data).  For the program to work, the following HikingProject account information must be stored in a file named `config.ini`:
 
 - account email address
 - api_key
 - account password
+
+A sample `config.sample.ini` has been created - copy it or create a new `config.ini` for your own config.
 
 ## Planning a Trip
 
